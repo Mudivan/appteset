@@ -1,0 +1,37 @@
+<%= form_with(model: series) do |form| %>
+  <% if series.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(series.errors.count, "error") %> prohibited this series from being saved:</h2>
+
+      <ul>
+        <% series.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :nome, style: "display: block" %>
+    <%= form.text_field :nome %>
+  </div>
+
+  <div>
+    <%= form.label :situacao, style: "display: block" %>
+    <%= form.select :situacao, [["Para Assistir","Para Assistir"],["Em Andamento","Em Andamento"],["Concluída","Concluída"]], {include_blank:"Selecionar"},{class: "form-control"}%>
+  </div>
+
+  <div>
+    <%= form.label :temporada, style: "display: block" %>
+    <%= form.text_field :temporada %>
+  </div>
+
+  <div>
+    <%= form.label :plataforma, style: "display: block" %>
+    <%= form.select :plataforma, [["Amazon Prime","Amazon Prime"],["Crunchyroll","Crunchyroll"],["Disney+","Disney+"],["GlobPlay","GloboPlay"],["HBO MAX","HBO MAX"],["Netflix","Netflix"]], {include_blank:"Selecionar"},{class: "form-control"} %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
