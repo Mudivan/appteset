@@ -1,4 +1,4 @@
-# Aplicação de Gerenciamento de Série/Animes(SeriesFlix)
+# Aplicação de Gerenciamento de Série/Animes({c:red}SeriesFlix{/c}) 
 
 ## Funcionalidades:
 
