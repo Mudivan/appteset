@@ -3,9 +3,9 @@
 ##Funcionalidades:
 
 *Login & Logout;
-*Adição de Séries/Animes;
-*Remoção de Séries/Animes;
-*Edição de Séries/Animes;
+*Adição de Séries/Animes
+*Remoção de Séries/Animes
+*Edição de Séries/Animes
 
 ##Tecnologias Utilizadas:
 
