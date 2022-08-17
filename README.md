@@ -2,10 +2,10 @@
 
 ##Funcionalidades:
 
-*Login & Logout;
-*Adição de Séries/Animes
-*Remoção de Séries/Animes
-*Edição de Séries/Animes
+* Login & Logout;
+* Adição de Séries/Animes
+* Remoção de Séries/Animes
+* Edição de Séries/Animes
 
 ##Tecnologias Utilizadas:
 
